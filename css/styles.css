@@ -9,4 +9,7 @@
 #result p{
   float: left;
 }
-
+img{
+  margin-left: 4px;
+  margin-right: 4px;
+}

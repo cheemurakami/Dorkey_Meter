@@ -5,12 +5,12 @@ $(document).ready(function(){
     var checkedNum = $('input:checkbox:checked').length
     var result1 = "You are a professional nerd!"
     var result2 = "There is quite a chance that you would be a nerd, practice more."
-    var result3 = "You must be regretting what you submitted just now."
+    var result3 = "Yea yea yea, you are so cool."
     // console.log(checkedNum);    
-    if (checkedNum > 7){
+    if (checkedNum > 6){
       $('#result').show();
       $('p').text(result1);
-    } else if (checkedNum <= 7 && checkedNum >= 4){
+    } else if (checkedNum <= 6 && checkedNum >= 4){
       $('#result').show();
       $('p').text(result2);
     } else {
