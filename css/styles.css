@@ -1,0 +1,12 @@
+#result{
+  display: none;
+  float: left;
+  border-style: round 1px solid black;
+  text-align: center;
+  line-height: 100px;
+  font-size: 16px;
+}
+#result p{
+  float: left;
+}
+
