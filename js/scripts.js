@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#questions").submit(function(event){
     event.preventDefault();
-    // console.log($('input:checkbox:checked'))
+    console.log($('input:checkbox:checked'))
     var checkedNum = $('input:checkbox:checked').length
     var result1 = "You are a professional nerd!"
     var result2 = "There is quite a chance that you would be a nerd, practice more."
