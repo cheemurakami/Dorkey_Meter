@@ -13,3 +13,13 @@ img{
   margin-left: 4px;
   margin-right: 4px;
 }
+.btn{
+  margin: 8px;
+  background-color: #d9d9d9;
+}
+.checkbox{
+  margin-bottom: 4px;
+}
+.mx-auto{
+  width: 600px;
+}
